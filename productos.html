@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font/flaticon.css">
+    <link id ="libreria" rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <header>
+        <section class="header-icons-container">
+            <div class="icons">
+            <a href="/"> <img src="assets/img/banderas.png" alt="Banderas"></a>
+            </div>
+        </section>
+        <nav>
+            <section class="nav-logo-container">
+                <a href="/"><img src="assets/img/cotiza.png" alt="Logo de cotiza" > </a>
+            </section>
+            <section class="carrito">
+                <a id="btnToast" href="carrito.html"><img src="assets/img/carrito.png" alt="">Compras</a>
+                <!-- <div id="btnToast"> <h1>🛒</h1></div> -->
+                <div id="modal-container" class="modal-container"></div>
+            </section>
+        </nav>
+    </header>
+    <main class="blogs-main">
+        <section class="blogs-news-container"></section>          
+            <div class="grid-container blogs-main-new">
+                       <div class="blogs-news-img-container">
+                    <img src="assets/img/main-news-img.png" alt="">
+                </div>
+                <div class="blogs-news-info-container" id="condg">
+                    <h2>Condiciones Generales</h2>
+                    <p>SEND EASY Recoge tu envío en la puerta de tu casa totalmente GRATIS. Escoge los servicios por Destino y compra de acuerdo a tus necesidades.</p>
+                    <a href="https://seguros.elcorteingles.es/diccionario/c/condiciones-generales/" class="blogs-button">Leer más</a>
+                </div>
+            </div>
+        </section>
+        <section class="blogs-posts-container">
+                <p class="service">NUESTROS SERVICIOS</p>
+            <div class="search">
+                <input type="search" id="searchid" placeholder="Selecciona por Destino" required>
+            </div>
+            <div id="contenedor-servicios"></div>        
+        </section>
+    </main>
+    <footer>
+        <p>2023, SEND EASY, S.A.S. Todos los derechos reservados .</p>
+    </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/productos.js"></script>
+</body>
+</html>

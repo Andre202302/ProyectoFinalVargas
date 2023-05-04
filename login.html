@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inicio de Sesion</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<div id="contenido">
+<body>
+    <header>
+        <section class="header-icons-container">
+            <div class="icons">
+                <a href="/"> <img src="assets/img/banderas.png" alt="Banderas"></a>
+            </div>
+        </section>
+        <nav>
+            <section class="nav-logo-container">
+                <a href="/"><img src="assets/img/Logo-negro.png" alt="Logo de mi blog" > </a>
+            </section>
+            <section class="profile-link">
+                <a href="register.html">REGISTRARSE</a>
+            </section>
+        </nav>
+    </header>
+    <main>
+        <section class="profile-main-container">
+            <div class="grid-container profile-container">
+                <div>
+                    <img src="assets/img/profile-pic.jpg" alt="">
+                </div>
+                <div>
+                    <h2>Hola, Inicia Sesión!</h2>
+                    <p>Para que puedas acceder y contratar a los servicios debes iniciar sesión con tu user y password registrados .</p>
+                </div>
+            </div>
+        </section>
+        <section class="profile-main-proyects text-success">
+            <form class="col s12" id="formInput"></form>
+                <div class="mx-auto p-2 border border-success" style="width: 253px">
+                  <p class="fs-5 fw-bold">INICIO DE SESION</p>
+                  <div class="mb-4">
+                  <label for="exampleInputEmail1" class="form-label">Usuario:</label>
+                  <input type="text" class="form-control" id="userInput" aria-describedby="emailHelp">
+                  
+                </div>
+                
+                <div class="mb-4">
+                  <label for="inputPassword5" class="form-label">password:</label>
+            <input type="password" id="passInput" class="form-control" aria-describedby="passwordHelpBlock">
+            
+                </div>
+            <button type="submit" id="login" class="btn btn-primary" onclick="registrados(registradosLS)">Ingresar</button>
+            <p id="mensaje">No tienes cuenta?<a href="register.html">REGISTRATRE</a></p>
+              </div>
+            </form>
+        </div>
+    </section>
+        </main>
+        <script src="./js/login.js"></script>
+   </body>
+</div>
+</html>
